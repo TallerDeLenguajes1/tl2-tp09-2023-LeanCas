@@ -18,23 +18,51 @@ public class TareaRepositorio : ITareaRepositorio
         throw new NotImplementedException();
     }
 
-    public List<Usuario> GetAll()
+    public List<Tarea> GetAll()
     {
-        throw new NotImplementedException();
+        try
+        {
+            return new List<Tarea>();
+        }
+        catch
+        {
+            throw;
+        }
     }
 
     public Tarea GetTarea(int id)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return new Tarea();
+        }
+        catch
+        {
+            throw;
+        }
     }
 
     public List<Tarea> GetTareaTablero(int idTablero)
     {
-        throw new NotImplementedException();
+        try
+        {
+            return new List<Tarea>();
+        }
+        catch
+        {
+            throw;
+        }
     }
 
     public void Set(int id, Tarea tarea)
     {
-        throw new NotImplementedException();
+        try
+        {
+
+        }
+        catch
+        {
+            throw;
+        }
     }
 }

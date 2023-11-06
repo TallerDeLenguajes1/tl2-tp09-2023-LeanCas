@@ -1664,19 +1664,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alumno\\.nuget\\packages\\": {}
+    "C:\\Users\\Bruno Casavalle\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\tp9\\tp9.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno Casavalle\\Desktop\\tp9\\tp9-tl2\\tl2-tp09-2023-LeanCas\\tp9.csproj",
       "projectName": "tp9",
-      "projectPath": "C:\\Users\\Alumno\\Desktop\\tp9\\tp9.csproj",
-      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alumno\\Desktop\\tp9\\obj\\",
+      "projectPath": "C:\\Users\\Bruno Casavalle\\Desktop\\tp9\\tp9-tl2\\tl2-tp09-2023-LeanCas\\tp9.csproj",
+      "packagesPath": "C:\\Users\\Bruno Casavalle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bruno Casavalle\\Desktop\\tp9\\tp9-tl2\\tl2-tp09-2023-LeanCas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bruno Casavalle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

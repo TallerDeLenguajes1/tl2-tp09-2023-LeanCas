@@ -22,7 +22,7 @@ public class UsuarioController : ControllerBase
     public ActionResult<Usuario> CrearUsuario(Usuario usuario)
     {
         repository.Create(usuario);
-        return Ok("El usuario fue creado con exito" + usuario);
+        return Ok("El usuario fue creado con exito " + usuario.NombreDeUsuario);
     }
 
     [HttpGet]
@@ -36,7 +36,7 @@ public class UsuarioController : ControllerBase
         }
         else
         {
-            return Ok("Usuarios listados: " + usuarios);
+            return Ok(usuarios);
         }
     }
 
@@ -51,7 +51,7 @@ public class UsuarioController : ControllerBase
         }
         else
         {
-            return Ok("Usuario listado: " + usuario);
+            return Ok("Usuario listado: " + usuario.NombreDeUsuario);
         }
     }
 
@@ -60,7 +60,7 @@ public class UsuarioController : ControllerBase
     public ActionResult<Usuario> ModificarUsuario(int id, Usuario usuario)
     {
         repository.Set(id, usuario);
-        return Ok("El usuario fue modificado con exito" + usuario);
+        return Ok("El usuario fue modificado con exito" + usuario.NombreDeUsuario);
     }
 
 }
