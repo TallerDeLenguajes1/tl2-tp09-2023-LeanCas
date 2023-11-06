@@ -1,8 +1,9 @@
 
-public interface ITareaRepositorio {
+public interface ITareaRepositorio
+{
     public Tarea Create(int idTablero);
-    public void Set(int id,Tarea tarea);
-    public List<Usuario> GetAll();
+    public void Set(int id, Tarea tarea);
+    public List<Tarea> GetAll();
     public Tarea GetTarea(int id);
     public List<Tarea> GetTareaTablero(int idTablero);
     public void Delete(int idTarea);

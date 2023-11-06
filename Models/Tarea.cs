@@ -1,12 +1,14 @@
 
-enum Estado {
+public enum Estado
+{
     Ideas,
     Todo,
     Doing,
-    Review, 
+    Review,
     Done
 }
-public class Tarea {
+public class Tarea
+{
     private int _id;
     private string _nombre;
     private string _descripcion;
