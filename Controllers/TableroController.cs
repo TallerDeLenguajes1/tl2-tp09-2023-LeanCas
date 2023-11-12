@@ -9,20 +9,19 @@ public class TableroController : ControllerBase
 
     private readonly ILogger<TableroController> _logger;
 
-    private readonly ITareaRepositorio repository;
+    private readonly ITableroRepositorio repository;
 
     public TableroController(ILogger<TableroController> logger)
     {
         _logger = logger;
-        repository = new TareaRepositorio();
+        repository = new TableroRepositorio();
     }
 
     [HttpPost]
     [Route("CrearTablero")]
-    public ActionResult<Tarea> CrearUsuario(int idTablero)
+    public ActionResult<Tarea> CrearTablero(int idTablero)
     {
-        var tarea = repository.Create(idTablero);
-        return Ok("El tablero fue creado con exito" + tarea);
+        return Ok("El tablero fue creado con exito");
     }
 
     [HttpGet]

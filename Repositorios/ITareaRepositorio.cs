@@ -1,7 +1,7 @@
 
 public interface ITareaRepositorio
 {
-    public Tarea Create(int idTablero);
+    public Tarea Create(int idTablero, Tarea tarea);
     public void Set(int id, Tarea tarea);
     public List<Tarea> GetAll();
     public Tarea GetTarea(int id);
